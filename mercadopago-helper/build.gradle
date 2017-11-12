@@ -3,8 +3,6 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 26
 
-
-
     defaultConfig {
         minSdkVersion 17
         targetSdkVersion 26
@@ -25,10 +23,11 @@ android {
 }
 
 dependencies {
-    compile 'com.google.android.gms:play-services-tasks:11.6.0'
+    implementation 'com.google.android.gms:play-services-tasks:11.6.0'
 
-    compile 'com.squareup.okhttp3:logging-interceptor:3.6.0'
-    compile 'com.squareup.retrofit2:retrofit:2.3.0'
-    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
-
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
 }
+
+apply from: '../library.gradle'

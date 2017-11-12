@@ -56,3 +56,8 @@ freeline_project_description.json
 
 # Custom
 library.gradle
+app/libs/
+mercadopago-helper/libs/
+mercadopago-helper/src/androidTest/
+mercadopago-helper/src/main/res/
+mercadopago-helper/src/test/

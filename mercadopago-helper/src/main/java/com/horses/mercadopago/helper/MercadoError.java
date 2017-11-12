@@ -1,9 +1,7 @@
 package com.horses.mercadopago.helper;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.StringJoiner;
 
 /**
  * @author @briansalvattore on 9/11/2017.
